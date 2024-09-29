@@ -1,5 +1,5 @@
 2D Layout estimation <br>
-## Install spvloc dependencies 
+### Install spvloc dependencies 
 ```bash
 #Ubuntu
 source venv/bin/activate
@@ -40,6 +40,8 @@ python layout.py --image_path bedroom.jpg
 python core.py --image_path bedroom.jpg
 
 ```
+
+### Results
 
 
 
