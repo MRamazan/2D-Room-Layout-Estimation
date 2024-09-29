@@ -23,6 +23,9 @@ cd spvloc
 python -m spvloc.tools.download_pretrained_models
 ```
 
+```bash
+cd ../
+```
 
 ## Testing
 
