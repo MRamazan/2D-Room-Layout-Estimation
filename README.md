@@ -16,7 +16,7 @@ cd spvloc
 ./data/setup/install_pyrender.sh
 # if permission denied:
 chmod +x ./data/setup/install_redner.sh ./data/setup/install_pyrender.sh
-then run the scripts
+#rerun the scripts
 ```
 
 ```bash
