@@ -12,7 +12,7 @@ import os
 import sys
 
 import argparse
-sys.path.append("/home/godling/Downloads/deneme-main/layout_pred/spvloc")
+sys.path.append("spvloc")
 from spvloc_train_test import main_start
 
 def main(image_path):
