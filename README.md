@@ -3,9 +3,9 @@
 ```bash
 #Ubuntu
 source venv/bin/activate
+cd 2D-Room-Layout-Estimation
 git clone https://github.com/MRamazan/2D-Room-Layout-Estimation
 pip install -r requirements.txt
-cd 2D-Room-Layout-Estimation
 ```
 
 ```bash
