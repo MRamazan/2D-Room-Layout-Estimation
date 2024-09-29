@@ -1,7 +1,38 @@
-i will publish source code soon <br>
+2D Layout estimation <br>
+## Install spvloc dependencies 
+```bash
+#Ubuntu
+source venv/bin/activate
+git clone https://github.com/MRamazan/2D-Room-Layout-Estimation
+pip install -r requirements.txt
+cd 2D-Room-Layaout-Estimation
+```
+
+```bash
+# Build and install redner
+./data/setup/install_redner.sh
+# Install patched version of pyrender
+./data/setup/install_pyrender.sh
+```
+
+```bash
+python -m spvloc.tools.download_pretrained_models
+```
+
+
+## Testing
+
+### Segmented Image
+```bash
+python layout.py --image_path example.jpg
+
+```
+
+### Layout Image
+```bash
+python core.py --image_path example.jpg
+
+```
 
 
 
-
-![deneme6399](https://github.com/user-attachments/assets/ebaccf7c-83fe-4ba5-99c0-69fdc0ca1f05)
-![deneme6399](https://github.com/user-attachments/assets/a4328cb9-33fa-49df-9c45-260d74c044d5)
