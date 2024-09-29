@@ -62,8 +62,9 @@ def optimal_number_of_clusters(wcss, silhouette_scores, cluster_range):
         return best_silhouette_k
 
 def encoded_image_scores(image_path):
-    print(image_path)
     image = cv2.imread(image_path)
+    image = image[59:202, 0:319]
+    image = cv2.resize(image, (320, 320))
 
     image = Image.fromarray(image)
 
