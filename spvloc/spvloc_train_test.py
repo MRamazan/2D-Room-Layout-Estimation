@@ -9,7 +9,7 @@ if not os.name == "nt":
 import pytorch_lightning as pl
 import torch
 import glob
-os.chdir("/home/godling/Downloads/deneme-main/layout_pred/spvloc")
+
 from pytorch_lightning import loggers
 from pytorch_lightning.callbacks import ModelCheckpoint, TQDMProgressBar
 
