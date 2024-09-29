@@ -17,10 +17,6 @@ from spvloc_train_test import main_start
 
 def main(image_path):
 
-    os.chdir("../")
-    print(os.getcwd())
-
-
     image = cv2.imread(image_path)
 
 
