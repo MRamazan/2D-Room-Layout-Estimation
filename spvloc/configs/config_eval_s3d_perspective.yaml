@@ -1,4 +1,4 @@
-OUT_DIR: "../../layout_pred"
+OUT_DIR: "../"
 SYSTEM:
   NUM_GPUS: 1
   NUM_WORKERS: 10
