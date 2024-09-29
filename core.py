@@ -24,7 +24,7 @@ def main_process(image_path):
 
     image = cv2.imread(image_path)
     image = cv2.resize(image, (320, 320))
-    os.chdir("../")
+  
 
 
     cv2.imwrite(os.path.join("dataset/scene_03457/2D_rendering/141477/perspective/full/0", "rgb_rawlight.png"), image)
