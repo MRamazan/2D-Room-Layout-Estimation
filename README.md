@@ -9,6 +9,7 @@ pip install -r requirements.txt
 ```
 
 ```bash
+cd spvloc
 # Build and install redner
 ./data/setup/install_redner.sh
 # Install patched version of pyrender
