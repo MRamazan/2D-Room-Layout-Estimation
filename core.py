@@ -1007,7 +1007,7 @@ def create_key(*args):
 
 if __name__ == '__main__':
     parse = argparse.ArgumentParser(description='Layout Project Parser')
-    parse.add_argument('--image_path', type=str,help='path to image file',default="example.jpg")
+    parse.add_argument('--image_path', type=str,help='path to image file',default="")
     args = parse.parse_args()
 
     main_process(args.image_path)
