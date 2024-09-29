@@ -31,13 +31,13 @@ cd ../
 
 ### Segmented Image
 ```bash
-python layout.py --image_path bedroom3.jpg
+python layout.py --image_path bedroom.jpg
 
 ```
 
 ### Layout Image
 ```bash
-python core.py --image_path bedroom3.jpg
+python core.py --image_path bedroom.jpg
 
 ```
 
