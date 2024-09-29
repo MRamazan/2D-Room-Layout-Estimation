@@ -7,7 +7,7 @@ try:
 except Exception:
     pass
 import sys
-sys.path.append("/home/godling/Downloads/deneme-main/layout_pred/spvloc/spvloc/utils")
+sys.path.append("spvloc/spvloc/utils")
 from panorama import coords_to_uv, coords_to_uv_persp, uvs_to_rays, uvs_to_rays_persp
 
 
