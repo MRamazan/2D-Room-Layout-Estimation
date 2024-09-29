@@ -5,7 +5,7 @@
 source venv/bin/activate
 git clone https://github.com/MRamazan/2D-Room-Layout-Estimation
 pip install -r requirements.txt
-cd 2D-Room-Layaout-Estimation
+cd 2D-Room-Layout-Estimation
 ```
 
 ```bash
