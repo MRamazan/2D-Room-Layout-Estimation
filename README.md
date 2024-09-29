@@ -42,6 +42,7 @@ python core.py --image_path bedroom.jpg
 ```
 
 ### Results
+![My Logo](results/res1.jpg)
 
 
 
