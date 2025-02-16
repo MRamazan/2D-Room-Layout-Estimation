@@ -1,4 +1,4 @@
-#2D Layout estimation <br>
+# 2D Layout estimation 
 
 ### Install spvloc dependencies 
 ```bash
