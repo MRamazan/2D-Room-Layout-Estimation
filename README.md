@@ -45,5 +45,8 @@ python core.py --image_path bedroom.jpg
 ### Results
 ![My Logo](results/res1.jpg) ![My Logo](results/res2.jpg) ![My Logo](results/res3.jpg)
 
+### Resources
+https://github.com/fraunhoferhhi/spvloc
+
 
 
