@@ -1,4 +1,5 @@
 # 2D Layout estimation 
+Line drawing algorithm for segmented layout image from https://github.com/fraunhoferhhi/spvloc
 
 ### Install spvloc dependencies 
 ```bash
