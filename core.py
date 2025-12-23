@@ -633,7 +633,6 @@ def main_process(image_path):
                 if point2 != point:
                     distances[create_key(point2)] = calculate_distance(point, point2)
 
-            print(max([list[1] for list in border_right_corners]), "yarak")
             if min([list[1] for list in border_right_corners]) == point[1]:
                 nearest_to_319 = True
             if max([list[1] for list in border_right_corners]) == point[1]:
@@ -1011,3 +1010,4 @@ if __name__ == '__main__':
     args = parse.parse_args()
 
     main_process(args.image_path)
+
